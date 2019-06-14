@@ -262,9 +262,7 @@ input, select, textarea {
 
 	.row {
 		display: flex;
-		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
 	}
 
 	.row h3 {
@@ -2251,8 +2249,8 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color:  black;
+				background-image: url("../../images/web_design_desk2.jpg");
 			}
 
 			#main > section.two {
