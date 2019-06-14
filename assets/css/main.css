@@ -263,6 +263,11 @@ input, select, textarea {
 	.row {
 		display: flex;
 		box-sizing: border-box;
+		flex-direction: row;
+	}
+
+	.row .my-row {
+		bakcground: black;
 	}
 
 	.row h3 {
@@ -395,6 +400,11 @@ input, select, textarea {
 
 		.row > .col-12 {
 			width: 100%;
+		}
+
+		.row > .col-12 textarea {
+			background: rgba(218,112,214, .4);
+			color: black;
 		}
 
 		.row > .off-12 {
@@ -1752,7 +1762,7 @@ input, select, textarea {
 	}
 
 		.image img {
-			display: block;
+			display: inline-block;
 			width: 100%;
 		}
 
@@ -1776,6 +1786,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			/* transform: rotate(90deg);  */
 		}
 
 		.image.left {
